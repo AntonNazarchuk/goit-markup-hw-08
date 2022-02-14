@@ -54,14 +54,14 @@
   font-weight: 400;
 }
 
-// .section-c__title,
-// .section-clients__title {
-//   margin-bottom: 30px;
-//   color: var(--title-text-color);
-//   @include font(700, 28px, 1.18);
-//   text-align: center;
-//   @media screen and (min-width: 1200px) {
-//     margin-bottom: 50px;
-//   }
-//   @include font(700, 36px, 1.17);
-// }
+.section-c__title,
+.section-clients__title {
+  margin-bottom: 30px;
+  color: var(--title-text-color);
+  @include font(700, 28px, 1.18);
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
+  @include font(700, 36px, 1.17);
+}

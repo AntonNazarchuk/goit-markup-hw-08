@@ -1120,6 +1120,28 @@ img {
   font-weight: 400;
 }
 
+.section-c__title,
+.section-clients__title {
+  margin-bottom: 30px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+@media screen and (min-width: 1200px) {
+  .section-c__title,
+  .section-clients__title {
+    margin-bottom: 50px;
+  }
+}
+
 .section-clients__title {
   margin-bottom: 30px;
   color: var(--title-text-color);
