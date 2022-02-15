@@ -17,8 +17,8 @@
   text-align: center;
   @media screen and (min-width: 1200px) {
     margin-bottom: 50px;
+    @include font(700, 36px, 1.17);
   }
-  @include font(700, 36px, 1.17);
 }
 
 .clients {

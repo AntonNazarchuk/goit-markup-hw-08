@@ -1,6 +1,17 @@
 .section-c {
   background-color: var(--secondary-bgc-color);
 }
+.section-c__title {
+  margin-bottom: 30px;
+  color: var(--title-text-color);
+  @include font(700, 28px, 1.18);
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+    @include font(700, 36px, 1.17);
+  }
+}
+
 .section-c-list {
   margin-bottom: -30px;
   @media screen and (min-width: 768px) {
@@ -52,16 +63,4 @@
 .section-c__profesion {
   margin-bottom: 16px;
   font-weight: 400;
-}
-
-.section-c__title,
-.section-clients__title {
-  margin-bottom: 30px;
-  color: var(--title-text-color);
-  @include font(700, 28px, 1.18);
-  text-align: center;
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 50px;
-  }
-  @include font(700, 36px, 1.17);
 }
